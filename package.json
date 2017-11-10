@@ -1,0 +1,26 @@
+{
+  "name": "scratchsim",
+  "description": "Scrach Web Simurator.",
+  "version": "0.0.1",
+  "main": "docs/compiled.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "java -jar closure-compiler-v20171023.jar --js sb2loader.js --js_output_file docs/js/compiled.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/turbographics2000/ScratchSim.git"
+  },
+  "keywords": [
+    "scratch"
+  ],
+  "author": "gtk2k",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/turbographics2000/ScratchSim/issues"
+  },
+  "homepage": "https://github.com/turbographics2000/ScratchSim#readme"
+}
